@@ -1,0 +1,35 @@
+
+
+.navcolor{
+    height: 1002px;
+    background-color: #0B0C10;
+
+}
+
+.andonxd
+{
+    background-color: #1F2833;
+    color: #66FCF1;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #66FCF1;
+    opacity: 1;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0B0C10;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
