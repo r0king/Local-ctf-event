@@ -1,0 +1,16 @@
+
+.thebox
+{   top: 0px;
+    left: 0px;
+    height: 400px;
+    background: var(--unnamed-color-1f2833) 0% 0% no-repeat padding-box;
+    background: #1F2833 0% 0% no-repeat padding-box;
+    box-shadow: 14px 25px 6px #1F2833B8;
+    opacity: 0.89;
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+    width: 40%;
+    color: #66FCF1;
+  
+}

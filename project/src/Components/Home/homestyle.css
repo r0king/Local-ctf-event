@@ -1,35 +1,60 @@
-
-
-.mainhome{
-    height: 1234px;
-    background-color: #0B0C10;
+.wholeinit{
+  opacity: 0.89 !important;
 
 }
 
-.andonxd
-{
-    background-color: #1F2833;
+.mainhome{
+     color: #66FCF1;
+    margin: 20px 20px 20px 25px;
+    margin-right: 35%;
+    border: 3px solid #66FCF1;
+    border-radius: 9px;
+    padding: 25px;
+    max-width:80% ;
+    background-color:#1F2833 ;
+    opacity: 0.80;
+}
+.welcome{
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0;
+  text-align: center;
+}
+.content{
+  padding-top: 10px;
+color: #C5C6C7;
+margin-bottom: 40%;
+text-align: center;
+font-size: 25px;
+
+
+}
+@media screen and (max-width: 500px){
+
+  .mainhome{
+    font-size: 10px;
+
+    margin: 10px 10px 10px 15px;
+  }
+  .welcome{
+    font-size: 15px;
+  }
+}
+
+.arrow_icon{
+  color: #66FCF1;
+  padding: 10px 30% 5%;
+  background-color: #C5C6C7;
+  height: 20%;
+  
+}
+
+.andonxd > 
+{  
+    background-color: #0B0C10 !important;
     color: #66FCF1;
     font-weight: 900;
     letter-spacing: 0px;
     color: #66FCF1;
     opacity: 1;
-}
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #0B0C10;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
 }

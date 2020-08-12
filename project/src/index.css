@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+    background-color:#0B0C10 !important;
+    background-image:url('Components/Common_Images/unnamed.gif');
+    background-blend-mode: lighten;
 }
 
 code {
