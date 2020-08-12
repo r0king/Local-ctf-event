@@ -1,0 +1,45 @@
+#mainContainer{
+    margin-top: 20%;
+    padding: 20px 10% 10px 10%;
+    height: 100%;
+    width: 100%;
+    background-color: #1F2833;
+    text-align: center;
+    color: #C5C6C7;
+}
+.firstContacticons{
+    display: inline-block;
+
+}
+.component{
+    height: 30px;
+    padding-left: 10px;
+    top:10px
+    
+    
+
+}
+.fontinte{
+    font-size: 20px;
+}
+
+span{
+    font-size: 35px;
+}
+div{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:600px){
+    .component{
+        font-size: 20px;
+        height: 25px;
+    }
+
+span{
+    font-size: 25px;
+}
+    .details{
+        font-size: 15px;
+    }
+}

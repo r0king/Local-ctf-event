@@ -14,6 +14,15 @@
   color: #66FCF1;
 
 }
+.Head_challenge{
+  font-size: 100px;
+  color:#45A29E ;
+  font-weight: 900;
+  padding-left: 5%;
+
+}
+
+
 .bg-fornav{
 background-color:#1F2833 ;
 opacity: 0.85;
@@ -34,5 +43,23 @@ font-weight: 900;
 .fontsd{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
+
+}
+.fewposition{
+  padding:0 9% 9% 9%;
+}
+
+@media screen and (max-width:800px){
+  .Head_challenge{
+    font-size: 60px;
+    text-shadow: #1F2833 ;
+
+  }
+}
+  @media screen and (max-width:450px){
+    .Head_challenge{
+      font-size: 45px;
+  
+    }
 
 }
