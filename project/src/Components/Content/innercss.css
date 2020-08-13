@@ -18,19 +18,29 @@
 }
 
 .box_head{
-    padding:30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left:10px ;
 }
 .BoxContentstl{
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 15px;
     color: #C5C6C7;
 }
 .loackeach{
     margin:10% 5% 20px 5%;
     
 }
+.h1style{
+    text-transform: uppercase;
+    font-weight:bold;
+    max-width:80%;
+    float:left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
 
-@media screen and (max-width:500px){
+@media screen and (max-width:1000px){
     .BoxContentstl{
         font-size: 15px;
     }

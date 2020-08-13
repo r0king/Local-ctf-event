@@ -4,6 +4,7 @@ import './homestyle.css'
 function HomePage() {
     return (
       <div className="wholeinit">
+        <div className="SmallSpace"></div>
         <div
          className="mainhome " >
           <h1 className="welcome">

@@ -4,13 +4,11 @@ class EachBox extends React.Component {
     return (
       <div>
         <div >
-        <h1 style={{textTransform:"uppercase",fontWeight:"bold",maxWidth:"80%",float:"left"}}>{this.props.title}</h1>
+        <h1 className="h1style">{this.props.title}</h1>
 
-        <svg className="box_head"
-          width="1em"
-          height="1em"
+        <svg height="35px"
           viewBox="0 0 16 16"
-          class="bi bi-layout-text-window-reverse"
+          className="bi bi-layout-text-window-reverse box_head"
           fill="currentColor"
           xmlns="http://www.w3.org/2000/svg"
         >

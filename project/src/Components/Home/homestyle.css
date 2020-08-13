@@ -1,11 +1,16 @@
 .wholeinit{
   opacity: 0.89 !important;
+  
+  background-image: url('../Common_Images/unnamed.gif');
 
 }
+.SmallSpace{
 
+height: 20px;
+}
 .mainhome{
      color: #66FCF1;
-    margin: 20px 20px 20px 25px;
+    margin: 0px 20px 20% 25px;
     margin-right: 35%;
     border: 3px solid #66FCF1;
     border-radius: 9px;
@@ -42,13 +47,22 @@ font-size: 25px;
   .content{
     font-size: 15px;
   }
-}
+  
+.SmallSpace{
 
+  height: 10px;
+
+}
+}
 .arrow_icon{
   color: #66FCF1;
-  padding: 10px 30% 5%;
-  background-color: #C5C6C7;
-  height: 20%;
+  background-color: #1F2833;
+  padding:5% 50% 5% ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
   
 }
 
