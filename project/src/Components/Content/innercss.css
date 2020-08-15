@@ -20,16 +20,21 @@
 }
 
 .box_head{
-    margin-left: 20px;
-    margin-top: 10px;
-    padding-left:10px ;
+    margin: auto 5% auto 0;
+    
 }
 .BoxContentstl{
     padding: 20px;
     margin-top: 15px;
     color: #C5C6C7;
 }
-.loackeach{margin:10% 5% 20px 5%;
+.loackeach{
+    margin:12%  20px ;
+    
+}
+.makethefle{
+    display: flex;
+    justify-content: space-between;
     
 }
 .h1style{
@@ -55,5 +60,12 @@
         margin:20px 20% ;
         
     }
+     .BoxContentstl{
+        font-size: 0.85rem;
+    }
+    h1{
+        font-size: 110px;
+    }
+
 
 }
