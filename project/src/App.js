@@ -1,20 +1,13 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import HomePage from './Components/Home/HomePage';
-import ContentSection from'./Components/Content/ContentSection';
-import ContactUs from './Components/Contact/ContactUs'
+import mainEntry from './Components/Main_pages/mainEntry';
 function App() {
   return (
     <div>
-       <HomePage />
-       <div className="fewposition">
-       <span className="Head_challenge"> All Challenges</span>
-       <ContentSection />
-       </div>
-       <ContactUs/>
+      <mainEntry/>
     </div>
   );
 }
 
-export default App;
+export default (App,mainEntry);

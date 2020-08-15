@@ -1,9 +1,9 @@
 import React from "react";
 import "./Contactstyle.css";
-import ContactIcon from "../Common_Images/contact.svg";
-import Facebookicon from "../Common_Images/facebook.svg";
-import PhoneIcon from "../Common_Images/phone.svg";
-import Plane from "../Common_Images/plane.svg";
+import ContactIcon from "../Common_icons/contact.svg";
+import Facebookicon from "../Common_icons/facebook.svg";
+import PhoneIcon from "../Common_icons/phone.svg";
+import Plane from "../Common_icons/plane.svg";
 function ContactUs() {
   return (
     <div id="mainContainer">
