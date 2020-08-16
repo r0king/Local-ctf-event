@@ -34,26 +34,12 @@ font-size: 25px;
 
 
 }
-@media screen and (max-width: 500px){
-
-  .mainhome{
-    font-size: 10px;
-
-    margin: 10px 10px 10px 15px;
-  }
-  .welcome{
-    font-size: 15px;
-  }
-  .content{
-    font-size: 15px;
-  }
-  
 .SmallSpace{
 
   height: 10px;
 
 }
-}
+
 .arrow_icon{
   color: #66FCF1;
   background-color: #1F2833;
@@ -74,4 +60,20 @@ font-size: 25px;
     letter-spacing: 0px;
     color: #66FCF1;
     opacity: 1;
+}
+
+
+@media screen and (max-width: 500px){
+
+  .mainhome{
+    font-size: 10px;
+
+    margin: 10px 10px 10px 15px;
+  }
+  .welcome{
+    font-size: 15px;
+  }
+  .content{
+    font-size: 15px;
+  }
 }
