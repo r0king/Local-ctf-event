@@ -1,9 +1,9 @@
 import React from 'react';
-function TheChallenge() {
+function TheChallengedefault() {
   return (
     <div>fgdgdfgdfg
     </div>
   );
 }
 
-export default TheChallenge;
+export default TheChallengedefault;

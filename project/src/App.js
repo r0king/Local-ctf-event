@@ -6,8 +6,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from './Components/Main_pages/NavBar'
 import MainEntry from './Components/Main_pages/mainEntry';
 import DashBoard from './Components/Main_pages/DashBoard';
+import TheChallenge from './Components/Main_pages/TheChallengedefault'
+import boxChallenge from './Components/Main_pages/boxChallenge'
 
-import TheChallenge from './Components/Main_pages/TheChallenge'
+
 function App() {
   return (
     <Router>
@@ -18,7 +20,8 @@ function App() {
   
       <Route path="/dashboard" component={DashBoard}/>
 
-      <Route path="/Challenge" component={TheChallenge}/>
+      <Route path="/Challenges/:id" component={boxChallenge}/>
+      <Route path="/Challenges" component={TheChallenge}/>
       </Switch>
     </div>
     </Router>

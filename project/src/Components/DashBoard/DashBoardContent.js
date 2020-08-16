@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./DashBoardstyle.css";
 
 function DashBoardcontent() {
-
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
@@ -15,14 +15,12 @@ function DashBoardcontent() {
 
         const json1 = await response.json();
 
-        console.log({ json1 });
         setResults(json1);
       } catch (error) {}
 
       console.log(query);
     }
-      fetchData();
-    
+    fetchData();
   }, [query]);
 
   return (
@@ -41,13 +39,16 @@ function DashBoardcontent() {
         />
         <button type="submit">Search</button>
       </form>
-
-      {results.map((item) => (
-        <div  key={item.id}>
-          <h4 >{String(item.setup)}</h4>
-          <p  >{item.punchline}</p>
-        </div>
-      ))}
+      <div>
+        {results.map((item) => (
+          <div key={item.id}>
+            <Link to={`/challenges/${item.id}`} >
+              <h4>{String(item.setup)}</h4>
+              <p>{item.punchline}</p>
+            </Link>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
