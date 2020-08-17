@@ -9,3 +9,146 @@
     list-style: none;
     margin:2%;
 }
+#mainDash{
+    display: grid;
+    min-height: 80vh;
+    max-height: 2000px;
+    gap: 1rem;
+    grid-template-columns: repeat(1,7fr 3fr);
+    grid-gap:1rem;
+    margin: 2%;
+    list-style: none;
+    justify-content: stretch;
+    align-items: stretch;
+}
+section div{
+    color: #C5C6C7;
+    border: 3px red 3px;
+}
+#welcome{
+    
+    background-color: #1F2833;
+    display: flex;
+    background-image: url('../Common_icons/cyber-eye-bg.jpg');
+    background-position: center;
+    background-blend-mode: soft-light;
+    justify-content: stretch;
+    flex-direction: column;
+    height: 100%;
+    padding: 1rem;
+}
+#welcome >header{
+    font-size: 30px;
+    font-weight: 900;
+    color:#66FCF1 ;
+}
+#tops{
+    grid-column: 2/3;
+    grid-row: 1/4;
+    background-color: #1F2833;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    padding: 20px;
+    height: 100%;
+    
+
+}
+#tops div{
+    padding: 1rem 1rem;
+}
+#tops li{
+    padding: 0 1rem;
+}
+
+#ProgressNstat{
+    grid-column: 1/2;
+    height: 200px;
+    background-color: #1F2833;
+    height: 100%;
+    padding: 2rem;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+#ProgressNstat .Status{
+    text-align: center;
+    height: 80px;
+    display: flex;
+    position: absolute;
+    right: 5%;
+    flex-direction: column;
+}
+#ProgressNstat .Status img{
+    height:  80%;
+    
+    
+}
+#Notification{
+    grid-column:1/2;
+    background-color: #1F2833;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    min-width: 400px;
+    align-items: center;
+    font-size: 1.2em;
+}
+#Notification img{
+    fill: #66FCF1;
+    padding: 5px;
+    height: 2em;
+}
+
+#tops img{
+    height: 50%;
+    align-self: center;
+    max-width: 400px;
+
+}
+
+#mainDash div{
+    border: 5px #fafafa;
+}
+@media screen and (min-width:1000px){
+        #mainDash{
+            margin:5% 10%
+        }}
+
+@media screen and (min-width:1500px){
+    #mainDash{
+        margin:3%;
+    }
+
+}
+
+
+@media screen and (max-width:900px){
+
+#ProgressNstat .Status{
+    height: 100px;
+    width: 100px;
+
+}
+#mainDash{
+    max-height: auto;
+}
+    #tops{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    #welcome{
+        grid-column: 1/3;
+    }
+    #ProgressNstat{
+        grid-column: 1/3;
+ 
+    }
+    #Notification{
+        grid-column: 1/3;
+ 
+    }
+}

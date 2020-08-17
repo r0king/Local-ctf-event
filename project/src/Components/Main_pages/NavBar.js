@@ -28,6 +28,7 @@ function NavBar() {
         data-target="#navbarText"
         aria-controls="navbarText"
         aria-expanded="false"
+        style={{marginRight: "0px",marginLeft: "auto"}}
         aria-label="Toggle navigation"
       >
         <span className="navbar-toggler-icon"></span>

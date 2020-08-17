@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./DashBoardstyle.css";
-
+import HeadUser from "./HeadUser"
 function DashBoardcontent() {
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("");
@@ -25,6 +25,8 @@ function DashBoardcontent() {
 
   return (
     <div>
+      <HeadUser/>
+
       <form
         id="srch"
         onSubmit={(e) => {
