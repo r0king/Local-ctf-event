@@ -6,21 +6,28 @@ function DashBoardcontent() {
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
+  const [newstyle,setStyle]=useState({})
   useEffect(() => {
     async function fetchData() {
       try {
         const response = await fetch(
           `https://official-joke-api.appspot.com/random_ten`
         );
-
         const json1 = await response.json();
-
         setResults(json1);
-      } catch (error) {}
+      }
+      catch (error) {}
+
+      finally{
+        setStyle({display:"none"})
+      }
 
       console.log(query);
     }
+
     fetchData();
+
+
   }, [query]);
 
   return (
@@ -35,13 +42,15 @@ function DashBoardcontent() {
         }}
       >
         <input
+        id="Input"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Search Challenges..."
         />
-        <button type="submit">Search</button>
+        <button id="submitbutton" type="submit">Search</button>
       </form>
       <div>
+      <div id="loader" style={newstyle}>Loading<span>...</span></div>
         {results.map((item) => (
           <div key={item.id}>
             <Link to={`/challenges/${item.id}`} >
